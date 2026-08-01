@@ -1,0 +1,12 @@
+
+function LinkATage({ text, href, className}) {
+    return (
+        <div>
+           
+                <a href={href} target="_blank" rel="noreferrer" className={`bg-blue-700 cursor-pointer text-white rounded-3xl px-4 py-1 text-sm shadow-sm shadow-blue-500 transition-all duration-500
+                hover:bg-linear-to-r hover:from-blue-500 hover:to-purple-500 ${className}`}>{text}</a>
+        </div>
+    )
+}
+
+export default LinkATage;

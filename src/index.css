@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background:-webkit-linear-gradient(left,rgb(2, 2, 48),rgb(7, 7, 27));
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.floating {
+    animation: change 3s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* لون النقط العادية وهي مش مفعلة */
+.swiper-pagination-bullet {
+  background: #6b7280 !important; /* لون رمادي */
+  opacity: 0.6;
+  width: 10px;
+  height: 10px;
+}
+
+/* شكل النقطة النشطة الحالية (بتكون مطولة شوية) */
+.swiper-pagination-bullet-active {
+  background: #0ea5e9 !important; /* لون أزرق مميز، ممكن تغييره حسب لون الديزاين */
+  width: 24px !important;
+  height: 10px !important;
+  border-radius: 5px !important;
+  opacity: 1;
+}
+
+
+/* 1. إعطاء الـ Swiper نفسه مساحة من الأسفل للنقط */
+.swiper {
+  padding-bottom: 50px !important; /* بتعمل مساحة تحت عشان النقط تنزل فيها برحتها */
+}
+
+/* 2. تغيير موقع النقط من الأسفل */
+.skills-swiper .swiper-pagination,
+.swiper-pagination {
+  bottom: 8px !important; /* كل ما تصغري الرقم ده النقط تنزل لتحت أكتر */
+}
