@@ -10,7 +10,7 @@ function Links({className}) {
     return (
         <div>
             <div className={`flex justify-center items-center gap-3 ${className}`}>
-                <a href="https://www.linkedin.com/in/basma-ahmed-09366a27b/" target="_blank" rel="noopener noreferrer" className={socialClass}><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://www.linkedin.com/in/basma-ahmed-360b73426/" target="_blank" rel="noopener noreferrer" className={socialClass}><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://www.facebook.com/basma.ahmed.711951" target="_blank" rel="noopener noreferrer" className={socialClass}><FontAwesomeIcon icon={faFacebook} /></a>
                 <a href="https://wa.me/201146663875" target="_blank" rel="noopener noreferrer" className={socialClass}><FontAwesomeIcon icon={faWhatsapp} /></a>
                 <a href="https://github.com/basma159" target="_blank" rel="noopener noreferrer" className={socialClass}><FontAwesomeIcon icon={faGithub} /></a>

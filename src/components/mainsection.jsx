@@ -3,7 +3,7 @@ import LinkATage from "./linkATag";
 
 const jobs = ["Front-End Developer",
     "React Developer",
-    "Full-Stack Developer",
+    "Web Developer",
 ]
 function Main() {
     //  Typing Animation أو Typewriter Effect.

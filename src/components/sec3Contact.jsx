@@ -40,11 +40,11 @@ function SecThree() {
                         <h2 className="ml-0 text-xl">Send a Message</h2>
                         <form className="flex flex-col items-center gap-4">
                             <div className="w-full flex justify-center items-center gap-4">
-                                <input type="text" placeholder="First Name" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" />
-                                <input type="text" placeholder="Last Name" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" />
+                                <input type="text" placeholder="First Name" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" required />
+                                <input type="text" placeholder="Last Name" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" required />
                             </div>
                               <div className="w-full flex justify-center items-center gap-4">
-                                <input type="email" placeholder="Email" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" />
+                                <input type="email" placeholder="Email" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" required/>
                                 <input type="tel" placeholder="Phone No. (optional)" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" />
                             </div>
                             <textarea placeholder="Your Message..."  rows="8" className="w-full ring-1 ring-gray-500 rounded-lg p-2"></textarea>
@@ -52,6 +52,7 @@ function SecThree() {
                         </form>
                     </div>
                 </div>
+
 
             </div>
         </section>
