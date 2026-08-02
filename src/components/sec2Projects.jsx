@@ -14,7 +14,7 @@ function SecTwo() {
         {
             id: 1,
             category: "Web Apps",
-            image: "/images/canvaproject-1.png",
+            image: "/canvaproject-1.png",
             head: "Tech Store Landing Page",
             parap: "Designed and developed a modern landing page for an electronics store featuring a clean user interface, organized sections, and engaging hover animations. The project focuses on building responsive layouts and improving front-end development skills using HTML and CSS.",
             tech: ["HTML", "CSS", "Font Awesome"],
@@ -24,7 +24,7 @@ function SecTwo() {
         {
             id: 2,
             category: "Web Apps",
-            image: "/images/shotsproject-2.png",
+            image: "/shotsproject-2.png",
             head: "Oak Furniture Landing Page",
             parap: "A modern and elegant landing page for a furniture store, designed to showcase furniture collections with a clean user interface and engaging CSS animations. The project focuses on creating an attractive shopping experience using only HTML and CSS.",
             tech: ["HTML", "CSS", "Font Awesome", "Google Fonts"],
@@ -34,7 +34,7 @@ function SecTwo() {
         {
             id: 3,
             category: "Web Apps",
-            image: "/images/shotsproject-3.png",
+            image: "/shotsproject-3.png",
             head: " DigitalPro - Digital Marketing Landing Page",
             parap: "Designed and developed a responsive landing page for a digital marketing agency using Tailwind CSS. The project focuses on creating modern UI components, responsive layouts, interactive cards, and clean visual hierarchy.",
             tech: ["HTML", "Tailwind CSS", "Font Awesome"],
@@ -44,7 +44,7 @@ function SecTwo() {
         {
             id: 4,
             category: "Web Apps",
-            image: "/images/shotsproject-4.png",
+            image: "/shotsproject-4.png",
             head: " Andalus Civilization | Interactive Educational Website",
             parap: "Designed and developed an interactive educational website about the Andalusian civilization using Tailwind CSS and JavaScript. The project includes animated page transitions, multimedia integration, responsive layouts, image sliders, and interactive UI elements to provide an engaging educational experience.",
             tech: ["HTML", "CSS", "Tailwind CSS", "JS", "Plyr.js", "Swiper.js", "Font Awesome", "Google Fonts"],
@@ -54,7 +54,7 @@ function SecTwo() {
         {
             id: 5,
             category: "Web Apps",
-            image: "/images/shotsproject-5.png",
+            image: "/shotsproject-5.png",
             head: " Holy Quran Web Application",
             parap: "Developed a fully interactive Quran web application using JavaScript and multiple public APIs. The application enables users to listen to Quran recitations, access Tafsir, watch Tadabbur videos, browse Quran pages, stream live Islamic TV channels, and listen to Quran radio through a responsive and intuitive interface.",
             tech: ["HTML", "CSS", "Tailwind CSS", "JS", "Fetch API", "HLS.js", "Font Awesome", "Google Fonts"],
@@ -64,7 +64,7 @@ function SecTwo() {
         {
             id: 6,
             category: "Web Apps",
-            image: "/images/canvaproject-6.png",
+            image: "/canvaproject-6.png",
             head: " Rosy Kids - Kids Clothing E-commerce",
             parap: "A responsive e-commerce website for children's clothing that provides a smooth shopping experience. Users can browse products, manage their shopping cart and favorites, adjust item quantities, and view the total price. The project focuses on dynamic content rendering and interactive user experience using JavaScript and Local Storage.",
             tech: ["HTML", "CSS", "Tailwind CSS", "JS", "Local Storage", "Font Awesome",],
