@@ -21,7 +21,7 @@ function Header() {
                 <button onClick={click} className="menuBtn block text-2xl md:hidden cursor-pointer"><FontAwesomeIcon icon={faBars} /></button>
                 <div className={`menu ${openMenu ? "flex" : "hidden"} w-full md:hidden transition-all duration-500
                  bg-gray-900 absolute top-full left-0 p-6 flex flex-col items-start gap-3`}>
-                    <Navbar className={"w-full flex-col md:flex-row"} />
+                    <Navbar className={"w-full flex-col md:flex-row"} onClick={()=>setOpenMenu(false)}/>
                     <Links className={"flex-row"} />
                 </div>
             </div>

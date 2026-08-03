@@ -86,7 +86,7 @@ function SecTwo() {
     const filterdProjects = activeCategory === 'All Projects' ? projects : projects.filter(project => project.category === activeCategory)
 
     return (
-        <section id="projects" className="w-full flex justify-center gap-3 scroll-mt-28 my-16 px-10" data-aos="fade-up">
+        <section id="projects" className="w-full flex justify-center gap-3 scroll-mt-20 md:scroll-mt-28 my-16 px-10" >
             <div className="container flex flex-col items-center gap-6">
                 <Headsection text1={"My Work"} text2={"Featured Projects"} text3={"Real-world applications built with modern technologies and best practices."} />
                 <div className="w-fit ring ring-white flex gap-2 rounded-3xl px-3 py-2 text-sm">

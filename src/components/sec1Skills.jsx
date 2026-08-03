@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 function SecOne() {
     return (
-        <section id="skills" className="w-full flex justify-center scroll-mt-28 mt-5" data-aos="fade-up">
+        <section id="skills" className="w-full flex justify-center scroll-mt-20 md:scroll-mt-28 my-16" >
             <div className="container w-full flex flex-col gap-3">
                 <Headsection
                     text1={"Technical Expertise"}
