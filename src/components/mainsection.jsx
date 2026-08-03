@@ -37,7 +37,7 @@ function Main() {
     }, [text, isDeleting, jobIndex])
 
     return (
-        <main id="home" className="w-full min-h-screen mt-28 mx-auto px-6 md:px-20 flex scroll-mt-28 my-10">
+        <main id="home" className="w-full min-h-screen mt-28 mx-auto px-6 md:px-20 flex scroll-mt-28 ">
             <div className="container min-h-screen w-full mx-auto flex flex-col md:flex-row justify-center md:justify-between gap-10">
                 <div className="left-side w-full flex-1 mx-auto md:w-1/2 flex flex-col items-center md:items-start gap-5">
                     <div className="w-fit flex justify-center items-center gap-2 ring-1 ring-blue-950 rounded-3xl px-4 py-2">
