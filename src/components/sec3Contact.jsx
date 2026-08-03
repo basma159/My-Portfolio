@@ -3,7 +3,7 @@ import Headsection from "./headSection";
 
 function SecThree() {
     return (
-        <section id="contact" className="w-full scroll-mt-28 my-10 flex justify-center items-center">
+        <section id="contact" className="w-full scroll-mt-28 my-10 flex justify-center items-center" data-aos="fade-up">
             <div className="container w-full flex flex-col justify-center items-center gap-5">
              <Headsection text1={"Say Hello"} text2={"Get In Touch"} text3={"Open to freelance projects, internships, and full-time opportunities. Let's build something great together."}/>
                 <div className="w-full flex flex-col md:flex-row gap-5 text-sm px-5">

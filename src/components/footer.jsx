@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 function Footer() {
     return (
 
-        <footer id="footer" className="w-full scroll-mt-28 mt-10 px-6 md:px-15">
+        <footer id="footer" className="w-full scroll-mt-28 mt-10 px-6 md:px-15" data-aos="fade-up">
 
                 <div className="footer-top  flex flex-col md:flex-row justify-between gap-10 w-full md:items-center border-t-2 border-gray-900 py-6">
                     <div className="flex flex-col justify-start gap-7">
