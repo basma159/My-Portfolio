@@ -14,7 +14,7 @@ function Card({ image, head, parah, tech, linkPro }) {
             </div>
             <div className="flex flex-col gap-8 p-4">
                 <h2 className="h-12">{head}</h2>
-                <p className="text-xs text-gray-500 h-24">{parah}</p>
+                <p className="text-xs text-gray-500 line-clamp-3">{parah}</p>
                 <div className="flex gap-2 flex-wrap">
 
                     {tech.map((item, index) => (

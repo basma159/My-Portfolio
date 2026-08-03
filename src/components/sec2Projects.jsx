@@ -11,28 +11,28 @@ function SecTwo() {
     const [activeCategory, setActiveCategory] = useState('All Projects')
 
     const projects = [
+        // {
+        //     id: 1,
+        //     category: "Web Apps",
+        //     image: `${BASE_URL}canvaproject-1.png`,
+        //     head: "Tech Store Landing Page",
+        //     parap: "Designed and developed a modern landing page for an electronics store featuring a clean user interface, organized sections, and engaging hover animations. The project focuses on building responsive layouts and improving front-end development skills using HTML and CSS.",
+        //     tech: ["HTML", "CSS", "Font Awesome"],
+        //     linkPro: "https://basma159.github.io/project-1/",
+
+        // },
+        // {
+        //     id: 2,
+        //     category: "Web Apps",
+        //     image: `${BASE_URL}shotsproject-2.png`,
+        //     head: "Oak Furniture Landing Page",
+        //     parap: "A modern and elegant landing page for a furniture store, designed to showcase furniture collections with a clean user interface and engaging CSS animations. The project focuses on creating an attractive shopping experience using only HTML and CSS.",
+        //     tech: ["HTML", "CSS", "Font Awesome", "Google Fonts"],
+        //     linkPro: "https://basma159.github.io/project-2/",
+
+        // },
         {
             id: 1,
-            category: "Web Apps",
-            image: `${BASE_URL}canvaproject-1.png`,
-            head: "Tech Store Landing Page",
-            parap: "Designed and developed a modern landing page for an electronics store featuring a clean user interface, organized sections, and engaging hover animations. The project focuses on building responsive layouts and improving front-end development skills using HTML and CSS.",
-            tech: ["HTML", "CSS", "Font Awesome"],
-            linkPro: "https://basma159.github.io/project-1/",
-
-        },
-        {
-            id: 2,
-            category: "Web Apps",
-            image: `${BASE_URL}shotsproject-2.png`,
-            head: "Oak Furniture Landing Page",
-            parap: "A modern and elegant landing page for a furniture store, designed to showcase furniture collections with a clean user interface and engaging CSS animations. The project focuses on creating an attractive shopping experience using only HTML and CSS.",
-            tech: ["HTML", "CSS", "Font Awesome", "Google Fonts"],
-            linkPro: "https://basma159.github.io/project-2/",
-
-        },
-        {
-            id: 3,
             category: "Web Apps",
             image: `${BASE_URL}shotsproject-3.png`,
             head: " DigitalPro - Digital Marketing Landing Page",
@@ -42,7 +42,7 @@ function SecTwo() {
 
         },
         {
-            id: 4,
+            id: 2,
             category: "Web Apps",
             image: `${BASE_URL}shotsproject-4.png`,
             head: " Andalus Civilization | Interactive Educational Website",
@@ -52,7 +52,7 @@ function SecTwo() {
 
         },
         {
-            id: 5,
+            id: 3,
             category: "Web Apps",
             image: `${BASE_URL}shotsproject-5.png`,
             head: " Holy Quran Web Application",
@@ -62,13 +62,23 @@ function SecTwo() {
 
         },
         {
-            id: 6,
+            id: 4,
             category: "Web Apps",
             image: `${BASE_URL}canvaproject-6.png`,
             head: " Rosy Kids - Kids Clothing E-commerce",
             parap: "A responsive e-commerce website for children's clothing that provides a smooth shopping experience. Users can browse products, manage their shopping cart and favorites, adjust item quantities, and view the total price. The project focuses on dynamic content rendering and interactive user experience using JavaScript and Local Storage.",
             tech: ["HTML", "CSS", "Tailwind CSS", "JS", "Local Storage", "Font Awesome",],
             linkPro: "https://basma159.github.io/Rosy-Kids/",
+
+        },
+         {
+            id: 5,
+            category: "Portfolio",
+            image: `${BASE_URL}shotsproject-7.png`,
+            head: "Personal Portfolio Website",
+            parap: "A modern and responsive personal portfolio built with React and Tailwind CSS to showcase my skills, featured projects, and experience. The website includes interactive animations, reusable components, project filtering, responsive layouts, and a clean user interface focused on performance and user experience.",
+            tech: ["react", "Tailwind CSS", "swiper", "Vite", "Font Awesome","React Hooks"],
+            linkPro: "https://basma159.github.io/My-Portfolio/",
 
         },
     ]

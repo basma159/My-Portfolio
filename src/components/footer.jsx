@@ -14,17 +14,17 @@ function Footer() {
                         <span className="w-2 h-2 rounded-full bg-blue-700"></span>
                         <h2>Portfolio</h2>
                     </div>
-                    <p className="text-gray-600 text-sm max-w-xs">Full-Stack Developer building beautiful, responsive web experiences with modern front-end technologies.</p>
-                    <Links className={"justify-start"} />
+                    <p className="text-gray-400 text-sm max-w-xs">Full-Stack Developer building beautiful, responsive web experiences with modern front-end technologies.</p>
+                    <Links className={"justify-start text-gray-400 "} />
                 </div>
                 
                 <div className=" flex flex-col items-start">
                     <h2>Navigation</h2>
-                    <Navbar className={"flex-col items-start text-gray-600 gap-3 max-w-xs"} />
+                    <Navbar className={"flex-col items-start text-gray-400 gap-3 max-w-xs"} />
                 </div>
                 <div className=" flex flex-col justify-start">
                     <h2>What I Do</h2>
-                    <ul className="text-gray-600 space-y-5">
+                    <ul className="text-gray-400 space-y-5">
                         <li>Front-End Development</li>
                         <li>Responsive Web Design</li>
                         <li>React & Tailwind Projects</li>
@@ -35,7 +35,8 @@ function Footer() {
 
             <div className="footer-bottom w-full flex justify-center items-center border-t-2 border-gray-900 py-6">
                 
-                <p className="text-xs text-gray-600">&copy; 2026 Basma Ahmed - All Rights Reserved</p>
+                <p className="text-xs text-gray-400">
+                    &copy;{new Date().getFullYear()} Basma Ahmed - All Rights Reserved</p>
             </div>
         </footer>
     )
