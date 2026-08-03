@@ -6,10 +6,10 @@ function EmailDiv (){
              <div className="footer-top flex flex-col md:flex-row md:justify-between gap-5 px-6 md:px-20">
                 <div>
                     <h2>Stay Updated</h2>
-                    <p className="text-gray-600">Subscribe to see my latest projects &amp; articles. </p>
+                    <p className="text-gray-600">Subscribe to get updates on my latest projects. </p>
                 </div>
-                <div className="flex md:justify-center md:items-center gap-3">
-                    <input type="email" placeholder="Enter Your Email" className="flex-1 ring-2 ring-gray-300 rounded-3xl px-4 py-2 outline-0 focus-within:ring-blue-700" />
+                <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-5">
+                    <input type="email" placeholder="Enter your email address" className="flex-1 ring-2 ring-gray-300 rounded-3xl px-4 py-2 outline-0 focus-within:ring-blue-700" />
                     <Buttons className={"px-4 py-3 ring-2 ring-blue-700 hover:ring-transparent"} text="Subscribe" />
 
                 </div>

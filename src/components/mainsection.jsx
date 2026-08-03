@@ -45,7 +45,7 @@ function Main() {
                         <h6 className="text-gray-500 text-sm">Available for opportunities</h6>
 
                     </div>
-                    <h2 className="text-4xl md:text-4xl lg:text-6xl font-bold">Hi! I'm <span className="bg-linear-to-r from-blue-400 via-purple-500 to-green-300 bg-clip-text text-transparent">Basma Ahmed</span> </h2>
+                    <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold">Hi! I'm <span className="bg-linear-to-r from-blue-400 via-purple-500 to-green-300 bg-clip-text text-transparent">Basma Ahmed</span> </h2>
                     <h2 className=" flex gap-2 text-3xl md:text-4xl lg:text-5xl bg-linear-to-l from-blue-400 to-purple-400 bg-clip-text text-transparent">{text}<span className="animate-pulse">|</span></h2>
                     <p className="text-gray-400 font-semibold text-center md:text-left">Crafting <span className="text-white">beautiful, responsive web applications</span> with modern front-end technologies. Passionate about clean code, elegant UI, and delightful user experiences.</p>
                     <div className="w-full flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
@@ -59,7 +59,7 @@ function Main() {
 
 
                 <div className="right-side w-full flex-1 mx-auto md:w-1/2 flex flex-col md:items-center md:py-16 ">
-                    <div className="w-full max-w-[320px] sm:max-w-sm bg-black/45 ring-1 ring-blue-400 shadow-2xl shadow-blue-400/40 rounded-2xl p-7 space-y-2 relative mx-auto">
+                    <div className="w-full max-w-[320px] sm:max-w-sm bg-slate-900/40 ring-1 ring-blue-400 shadow-2xl shadow-blue-400/40 rounded-2xl p-7 space-y-2 relative mx-auto">
                         <div className="floating ring-1 ring-white/45 bg-gray-950 text-blue-500 text-sm w-fit rounded-2xl px-3 py-1 absolute z-10 -right-3 -top-3  transition-all duration-1000">
                             <h2> Frontend Dev</h2>
                         </div>
