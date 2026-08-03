@@ -13,11 +13,11 @@ function Main() {
 
     useEffect(() => {
         const currentJob = jobs[jobIndex]
-        const timer = setInterval(() => {
+        const timer = setTimeout(() => {
             if (!isDeleting) {
                 setText(currentJob.substring(0, text.length + 1))
                 if (text.length === currentJob.length) {
-                    clearInterval(timer)
+                    clearTimeout(timer)
                     setTimeout(() => {
                         setIsDeleting(true)
                     }, 1000)
@@ -32,34 +32,34 @@ function Main() {
             }
         }, 100)
 
-        return () => clearInterval(timer)
+        return () => clearTimeout(timer)
 
     }, [text, isDeleting, jobIndex])
 
     return (
         <main id="home" className="w-full min-h-screen mt-28 mx-auto px-6 md:px-20 flex scroll-mt-28 my-10">
-            <div className="container min-h-screen w-full mx-auto flex flex-col md:flex-row justify-between gap-10 ">
-                <div className="left-side w-full mx-auto md:w-1/2 flex flex-col gap-5 ">
+            <div className="container min-h-screen w-full mx-auto flex flex-col md:flex-row justify-center md:justify-between gap-10">
+                <div className="left-side w-full flex-1 mx-auto md:w-1/2 flex flex-col items-center md:items-start gap-5">
                     <div className="w-fit flex justify-center items-center gap-2 ring-1 ring-blue-950 rounded-3xl px-4 py-2">
-                        <span className="w-2 h-2 rounded-lg bg-blue-400"></span>
+                        <span className="w-2 h-2 rounded-lg bg-blue-400 animate-pulse"></span>
                         <h6 className="text-gray-500 text-sm">Available for opportunities</h6>
 
                     </div>
                     <h2 className="text-4xl md:text-4xl lg:text-6xl font-bold">Hi! I'm <span className="bg-linear-to-r from-blue-400 via-purple-500 to-green-300 bg-clip-text text-transparent">Basma Ahmed</span> </h2>
                     <h2 className=" flex gap-2 text-3xl md:text-4xl lg:text-5xl bg-linear-to-l from-blue-400 to-purple-400 bg-clip-text text-transparent">{text}<span className="animate-pulse">|</span></h2>
-                    <p className="text-gray-400 font-semibold">Crafting <span className="text-white">beautiful, responsive web applications</span> with modern front-end technologies. Passionate about clean code, elegant UI, and delightful user experiences.</p>
-                    <div className="flex  items-center gap-3">
+                    <p className="text-gray-400 font-semibold text-center md:text-left">Crafting <span className="text-white">beautiful, responsive web applications</span> with modern front-end technologies. Passionate about clean code, elegant UI, and delightful user experiences.</p>
+                    <div className="w-full flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
 
-                        <LinkATage href="#projects" className={"px-4 py-2 ring-1 ring-blue-700 hover:ring-transparent"} text="View My Projects" />
+                        <LinkATage href="#projects" className={"px-4 py-2.5 ring-1 ring-blue-700 hover:ring-transparent w-full sm:w-auto flex justify-center"} text="View My Projects" />
 
-                        <a href="#contact" className="ring-1 ring-gray-700 text-white rounded-3xl px-4 py-2 text-sm  transition-all duration-500
-                hover:ring-blue-600">Get In Touch</a>
+                        <a href="#contact" className="ring-1 ring-gray-700 flex justify-center text-white rounded-3xl px-4 py-2.5 text-sm transition-all duration-500
+                hover:ring-blue-600 w-full sm:w-auto">Get In Touch</a>
                     </div>
                 </div>
 
 
-                <div className="right-side w-full mx-auto md:w-1/2 flex flex-col md:items-center md:py-16 ">
-                    <div className="w-72 bg-black/45 ring-1 ring-blue-400 shadow-2xl shadow-blue-400/40 rounded-2xl p-7 space-y-2 relative ml-0 md:ml-20">
+                <div className="right-side w-full flex-1 mx-auto md:w-1/2 flex flex-col md:items-center md:py-16 ">
+                    <div className="w-full max-w-[320px] sm:max-w-sm bg-black/45 ring-1 ring-blue-400 shadow-2xl shadow-blue-400/40 rounded-2xl p-7 space-y-2 relative mx-auto">
                         <div className="floating ring-1 ring-white/45 bg-gray-950 text-blue-500 text-sm w-fit rounded-2xl px-3 py-1 absolute z-10 -right-3 -top-3  transition-all duration-1000">
                             <h2> Frontend Dev</h2>
                         </div>

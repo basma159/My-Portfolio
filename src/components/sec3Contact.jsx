@@ -48,7 +48,7 @@ function SecThree() {
                                 <input type="tel" placeholder="Phone No. (optional)" className="ring-1 ring-gray-500 rounded-lg p-2 w-1/2" />
                             </div>
                             <textarea placeholder="Your Message..."  rows="8" className="w-full ring-1 ring-gray-500 rounded-lg p-2 resize-none"></textarea>
-                            <Buttons type={"submit"} text={"Send Message"} className={"px-6 py-4 text-lg w-full"}/>
+                            <Buttons type={"submit"} text={"Send Message"} className={"px-6 py-4 text-lg w-full sm:w-auto"}/>
                         </form>
                     </div>
                 </div>
