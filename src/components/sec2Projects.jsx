@@ -44,7 +44,7 @@ function SecTwo() {
         {
             id: 2,
             category: "Web Apps",
-            image: `${BASE_URL}shots_so4.png`,
+            image: `${BASE_URL}shotsproject-4.png`,
             head: " Andalus Civilization | Interactive Educational Website",
             parap: "Designed and developed an interactive educational website about the Andalusian civilization using Tailwind CSS and JavaScript. The project includes animated page transitions, multimedia integration, responsive layouts, image sliders, and interactive UI elements to provide an engaging educational experience.",
             tech: ["HTML", "CSS", "Tailwind CSS", "JS", "Plyr.js", "Swiper.js", "Font Awesome", "Google Fonts"],
